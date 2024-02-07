@@ -3,8 +3,8 @@ let resposta = document.getElementById ("resposta")
 function calcular(){
     let temperatura = Number (document.getElementById ("temperatura").value)
     
-let fire = (temperatura + 9/5)
+let fire = (temperatura * 9/5) + 32
 
    
-resposta.innerHTML = " a " + temperatura + " convertida para firehings é " + fire
+resposta.innerHTML = " convertendo os graus celsius em fahrenheit o resultado é " + fire
 }
