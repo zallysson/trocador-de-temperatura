@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: burlywood;
+
+    text-align: center;
+}
+input {
+    background-color: rgb(50, 80, 97);
+    color: brown;
+}
+button {
+    background-color: rgb(22, 8, 11);
+    color: darkslategray;
+}
